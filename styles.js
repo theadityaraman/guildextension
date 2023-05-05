@@ -45,3 +45,72 @@ const styles = StyleSheet.create({
     fontSize: 16,
     color: '#fff',
   },
+    container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    padding: 20,
+  },
+  title: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    marginBottom: 20,
+  },
+  input: {
+    borderWidth: 1,
+    borderColor: '#ccc',
+    borderRadius: 5,
+    padding: 10,
+    marginBottom: 10,
+  },
+  label: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    marginBottom: 5,
+  },
+  button: {
+    backgroundColor: '#3f51b5',
+    padding: 10,
+    borderRadius: 5,
+    marginTop: 20,
+  },
+  buttonText: {
+    color: '#fff',
+    fontSize: 18,
+    fontWeight: 'bold',
+    textAlign: 'center',
+  },
+  tableContainer: {
+    borderWidth: 1,
+    borderColor: '#ccc',
+    borderRadius: 5,
+    marginTop: 20,
+    marginBottom: 20,
+  },
+  tableHeader: {
+    backgroundColor: '#f1f1f1',
+    padding: 10,
+    borderTopLeftRadius: 5,
+    borderTopRightRadius: 5,
+    flexDirection: 'row',
+  },
+  tableHeaderText: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    flex: 1,
+  },
+  tableRow: {
+    flexDirection: 'row',
+    borderBottomWidth: 1,
+    borderBottomColor: '#ccc',
+    padding: 10,
+  },
+  tableRowText: {
+    flex: 1,
+    fontSize: 16,
+  },
+  noDataText: {
+    textAlign: 'center',
+    fontSize: 16,
+    marginTop: 20,
+  },
+});
